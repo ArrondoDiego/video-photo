@@ -32,8 +32,8 @@ video-photo/
 
 2. **Create a virtual environment**:
    ```bash
-   python3 -m venv photo-audio_env
-   source photo-audio_env/bin/activate  # On Windows: venv\Scripts\activate
+   python3 -m venv .photo-audio_env
+   source .photo-audio_env/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. **Install dependencies**:
