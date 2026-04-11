@@ -1,4 +1,4 @@
-# Photo-to-Video Automator 🎞️
+# Photo-to-Video Automator 
 
 A Python-based tool to automatically generate high-quality slideshow videos from a collection of images with background music and smooth transitions.
 
