@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+
+# Virtual environments
+.photo-audio_env/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
