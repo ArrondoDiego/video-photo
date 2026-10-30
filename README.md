@@ -15,8 +15,7 @@ video-photo/
 │   ├── images/       # Drop your JPG/PNG files here
 │   └── audio/        # Drop your MP3 file here
 ├── output/           # Rendered videos will appear here
-├── src/
-│   └── main.py       # Core logic
+├── main.py           # Core logic
 ├── requirements.txt  # Python dependencies
 ├── README.md         # This file
 └── .gitignore        # Git ignore rules
@@ -49,16 +48,15 @@ video-photo/
 
 2. **Run the script**:
    ```bash
-   python src/main.py
+   python main.py
    ```
 
 3. **Find your output**:
-   - The generated video will be saved in `output/slideshow_ripristinato_8.mp4`
+   - The generated video will be saved in `output/slideshow.mp4`
 
 ## Configuration
 
-Edit these parameters in `src/main.py` to customize your slideshow:
+Edit these parameters in `main.py` to customize your slideshow:
 - `target_res`: Video resolution (default: 1920x1080)
 - `duration_per_img`: Seconds each image is displayed (default: 2.3)
 - `transition`: Crossfade duration in seconds (default: 0.4)
-- `chunk_size`: Number of images per processing batch (default: 15)
